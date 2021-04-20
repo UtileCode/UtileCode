@@ -35,7 +35,10 @@ body{
 
 
 header{
-    background:   rgb(19, 55, 58);
+    background: url('/Blog/assets/Abract01.svg');
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: right;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -265,7 +268,7 @@ header{
 }
 
 .banner-top-text {
-    color: #26abb4;
+    color: #00eeff;
     font-size: 56px;
 }
 
@@ -402,7 +405,7 @@ main{
     justify-content: center;
     flex-direction: column;
     display: flex;
-    background-color: rgb(19, 55, 58);
+    background-position: top;
 }
 
 .main-top{
@@ -469,7 +472,6 @@ main{
     margin-top: 100px;
     display: flex;
     justify-content: center;
-    background-color:  rgb(19, 55, 58);
 }
 
 .site-News {
