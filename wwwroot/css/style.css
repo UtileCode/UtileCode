@@ -35,7 +35,7 @@ body{
 
 
 header{
-    background-image: url("/Blog/assets/Abract01.svg");
+    background-image: url('/Abract01.svg');
     background-size: 55%;
     background-repeat: no-repeat;
     background-position: right;
