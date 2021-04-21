@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blooger</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="./css/all.css">
+
+
+    <!-- --------- Owl-Carousel ------------------->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
+    <!-- ------------ AOS Library ------------------------- -->
+    <link rel="stylesheet" href="./css/aos.css">
+
+    <!-- Custom Style   -->
+    <link rel="stylesheet" href="./css/Style.css">
+
+    <link rel="stylesheet" href="../wwwroot/css/bootstrap-rtl.min.css"/>
+    <link rel="stylesheet" href="../wwwroot/css/reset.css"/>
+    <link rel="stylesheet" href="../wwwroot/css/all.min.css"/>
+    <link rel="stylesheet" href="../wwwroot/css/style.css"/>
+
+</head>
+
+<body>
+
+    <!-- ----------------------------  Navigation ---------------------------------------------- -->
+<header>
+    <div class="header-category" >
+        <div class="header-top" >
+            <div class="nav-Logo" >
+                <h1 hidden >UtileCode</h1>
+                <div class="UtileCode" >
+                    <a class="logo-box" href="../Pages/signin.html" >
+                        <img class="site-logo" src="../wwwroot/image/site/UtileCode.svg" title="Utile Sport" alt="" />
+                        Account
+                    </a>
+                    <a href="../Pages/signup.html" class="Account-SignUp" >SignUp</a>
+                </div>
+            </div>
+            <div class="nav-menu" >
+                <nav class="nav-box-menu" >
+                    <ul class="site-menu">
+                        <li class="menu-item"><a class="menu-item-link menu-item-padding " href="#Home">Home</a></li>
+                        <li class="menu-item"><a class="menu-item-link menu-item-padding " href="#News">News</a></li>
+                        <li class="menu-item"><a class="menu-item-link menu-item-padding active-site-map "href="./Blog/blog.html">Articles</a></li>
+                        <li class="menu-item"><a class="menu-item-link menu-item-padding " href="#Projects">Projects</a></li>
+                        <li class="menu-item"><a class="menu-item-link menu-item-padding " href="#Courses">Courses</a></li>
+                        <li class="menu-item"><a class="menu-item-link menu-item-padding " href="#Customers">Customers</a></li>
+                        <li class="menu-item"><a class="menu-item-link menu-item-padding " href="#Cooperation">Cooperation</a></li>
+                        <li class="menu-item"><a class="menu-item-link menu-item-padding " href="#ProjectOrder">ProjectOrder</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="nav-social" >
+                <nav class="nav-box-social" >
+                    <ul class="site-social">
+                        <li class="social-item">
+                            <a class="social-link" href="https://github.com/MiladNazirzadeh" title="github"><i class=" social-icon fab fa-github"></i></a>
+                        </li>
+                        <li class="social-item">
+                            <a class="social-link" href="#" title="linkedin"><i class=" social-icon fab fa-linkedin"></i></a>
+                        </li>
+                        <li class="social-item">
+                            <a class="social-link" href="#" title="whatsapp"><i class=" social-icon fab fa-whatsapp"></i></a>
+                        </li>
+                        <li class="social-item">
+                            <a class="social-link" href="#" title="telegram"><i class=" social-icon fab fa-telegram"></i></a>
+                        </li>
+                        <li class="social-item">
+                            <a class="social-link" href="https://www.instagram.com/miladnazirzadeh/" title="instagram"><i class=" social-icon fab fa-instagram"></i></a>
+                        </li>
+                        <li class="social-item">
+                            <a class="social-link" href="#" title="facebook"><i class=" social-icon fab fa-facebook"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="social-panel-menu" >
+                <div id="socialpanel" class="side-social-panel">
+                    <a href="javascript:void(0)" class="social-close-btn" onclick="closesocial()">×</a>
+                    <li class="social-item">
+                        <a class="side-social-link" href="https://github.com/MiladNazirzadeh" title="github"><i class=" social-icon fab fa-github"></i></a>
+                    </li>
+                    <li class="social-item">
+                        <a class="side-social-link" href="#" title="linkedin"><i class=" social-icon fab fa-linkedin"></i></a>
+                    </li>
+                    <li class="social-item">
+                        <a class="side-social-link" href="#" title="whatsapp"><i class=" social-icon fab fa-whatsapp"></i></a>
+                    </li>
+                    <li class="social-item">
+                        <a class="side-social-link" href="#" title="telegram"><i class=" social-icon fab fa-telegram"></i></a>
+                    </li>
+                    <li class="social-item">
+                        <a class="side-social-link" href="https://www.instagram.com/miladnazirzadeh/" title="instagram"><i class=" social-icon fab fa-instagram"></i></a>
+                    </li>
+                    <li class="social-item">
+                        <a class="side-social-link" href="#" title="facebook"><i class=" social-icon fab fa-facebook"></i></a>
+                    </li>
+                  </div>
+                  
+                  <a class="open-social-side-panel" onclick="opensocial()"><i class="fa fa-users" aria-hidden="true"></i></a>  
+            </div>
+    
+            <div class="site-map-menu" >
+                <div id="sitemappanel" class="site-map-panel">
+                    <a href="javascript:void(0)" class="close-site-map" onclick="closesitemap()">×</a>
+                    <a class="side-map-item side-map-item-active" href="#Home">Home</a>
+                    <a class="side-map-item" href="#News">News</a>
+                    <a class="side-map-item" href="./Blog/blog.html">Articles</a>
+                    <a class="side-map-item" href="#Projects">Projects</a>
+                    <a class="side-map-item" href="#Courses">Courses</a>
+                    <a class="side-map-item" href="#Customers">Customers</a>
+                    <a class="side-map-item" href="#Cooperation">Cooperation</a>
+                    <a class="side-map-item" href="#ProjectOrder">ProjectOrder</a>
+                  </div>
+                  
+                  <a class="open-site-map" onclick="opensitemap()"><i class="fa fa-bars" aria-hidden="true"></i></a>  
+            </div>
+        </div>
+    
+    </div>
+
+</header>
+
+    <!-- ------------x---------------  Navigation --------------------------x------------------- -->
+
+    <!----------------------------- Main Site Section ------------------------------>
+
+    <main>
+
+        <!------------------------ Site Title ---------------------->
+        <!------------x----------- Site Title ----------x----------->
+
+        <!-- --------------------- Blog Carousel ----------------- -->
+
+        <section>
+            <div class="blog">
+                <div class="container">
+                    <div class="owl-carousel owl-theme blog-post">
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="../Blog/assets/microsoft/featured-certifications-2x.png" alt="post-1">
+                            <div class="blog-title">
+                                <h3>
+                                    Become Microsoft certified</h3>
+                                <button class="btn btn-blog">CERTIFICATIONS</button>
+                                <span>Explore Certifications</span>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-in" data-aos-delay="200">
+                            <img src="../Blog/assets/microsoft/featured-learn-tv-2x.png" alt="post-1">
+                            <div class="blog-title">
+                                <h3>
+                                    Watch live and recorded events</h3>
+                                <button class="btn btn-blog">LEARN TV</button>
+                                <span>Start watching now</span>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-left" data-aos-delay="200">
+                            <img src="../Blog/assets/microsoft/featured-learning-paths-2x.png" alt="post-1">
+                            <div class="blog-title">
+                                <h3>Learn on your own schedule</h3>
+                                <button class="btn btn-blog">LEARNING PATHS</button>
+                                <span>Browse all learning options</span>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-in" data-aos-delay="200">
+                            <img src="../Blog/assets/microsoft/featured-learn-tv-2x.png" alt="post-1">
+                            <div class="blog-title">
+                                <h3>
+                                    Watch live and recorded events</h3>
+                                <button class="btn btn-blog">LEARN TV</button>
+                                <span>Start watching now</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-navigation">
+                        <span class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left"></i></span>
+                        <span class="owl-nav-next"><i class="fas fa-long-arrow-alt-right"></i></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ----------x---------- Blog Carousel --------x-------- -->
+
+        <!-- ---------------------- Site Content -------------------------->
+
+        <section class="container">
+            <div class="site-content">
+                <div class="posts">
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/microsoft/1.png" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14, 2019</span>
+                                <span>2 Commets</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">
+                                Microsoft Vision Model ResNet-50: Pretrained vision model built with web-scale data webinar</a>
+                            <p>In this webinar, join Junwon Park and Zygmunt Lenyk, to learn how the team built Microsoft Vision Model using multi-task learning and web-supervised datasets. You’ll examine how the model lowers cost in a production setting while achieving state-of-the-art performance by using multi-task learning and optimizing separately for multiple classification tasks, including ImageNet-22k, COCO, and two web-supervised datasets of 40 million image-label pairs collected from image search engines.
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/microsoft/2.jpg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 16, 2019</span>
+                                <span>7 Commets</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Microsoft Vision Model ResNet-50: Pretrained vision model built with web-scale data webinar</a>
+                            <p>In this webinar, join Junwon Park and Zygmunt Lenyk, to learn how the team built Microsoft Vision Model using multi-task learning and web-supervised datasets. You’ll examine how the model lowers cost in a production setting while achieving state-of-the-art performance by using multi-task learning and optimizing separately for multiple classification tasks, including ImageNet-22k, COCO, and two web-supervised datasets of 40 million image-label pairs collected from image search engines
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/microsoft/3.jpg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 19, 2019</span>
+                                <span>5 Commets</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Reinforcement learning in Minecraft: Challenges and opportunities in multiplayer games webinar</a>
+                            <p>In this webinar, learn how the latest AI techniques can be applied to multiplayer games in the challenging and diverse 3D environment of Minecraft. Join the researchers as they demonstrate how Project Malmo—a platform for AI experimentation built on Minecraft—provides an ideal environment for designing different and rich training tasks and how reinforcement learning agents can be trained in these scenarios. They’ll provide examples of tasks, agent implementations, and the latest research done in this…
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/microsoft/4.jpg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 21, 2019</span>
+                                <span>12 Commets</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Project InnerEye: Augmenting cancer radiotherapy workflows with deep learning and open source webinar</a>
+                            <p>In this webinar, Dr. Ozan Oktay and Dr. Anton Schwaighofer will analyze these challenges within the context of image-guided radiotherapy procedures and will present the latest research outputs of Project InnerEye in tackling these challenges. The first part of the webinar will focus on a research study that evaluates the potential clinical impact of DL models within the context of radiotherapy planning procedures. The second part of the talk will introduce the open-source InnerEye Deep…
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="pagination flex-row">
+                        <a href="#"><i class="fas fa-chevron-left"></i></a>
+                        <a href="#" class="pages">1</a>
+                        <a href="#" class="pages">2</a>
+                        <a href="#" class="pages">3</a>
+                        <a href="#"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <aside class="sidebar">
+                    <div class="category">
+                        <h2>Category</h2>
+                        <ul class="category-list">
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="100">
+                                <a  href="#">Software</a>
+                                <span class="category-spam" >(05)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a  class="category-lin" href="#">Techonlogy</a>
+                                <span class="category-spam" >(02)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="300">
+                                <a   href="#">Lifestyle</a>
+                                <span class="category-spam" >(07)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="400">
+                                <a   href="#">Shopping</a>
+                                <span class="category-spam">(01)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="500">
+                                <a   href="#">Food</a>
+                                <span class="category-spam" >(08)</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="popular-post">
+                        <h2>Popular Post</h2>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="200">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/microsoft/A.png" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
+                                        2019</span>
+                                    <span>2 Commets</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">New data recording system to better analyse road accidents</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="300">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/microsoft/B.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
+                                        2019</span>
+                                    <span>2 Commets</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">New data recording system to better analyse road accidents</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="400">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/microsoft/C.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
+                                        2019</span>
+                                    <span>2 Commets</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">New data recording system to better analyse road accidents</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="500">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/microsoft/D.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
+                                        2019</span>
+                                    <span>2 Commets</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">New data recording system to better analyse road accidents</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="600">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/microsoft/C.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
+                                        2019</span>
+                                    <span>2 Commets</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">New data recording system to better analyse road accidents</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popular-tags">
+                        <h2>Popular Tags</h2>
+                        <div class="tags flex-row">
+                            <span class="tag" data-aos="flip-up" data-aos-delay="100">Software</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="200">technology</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="300">travel</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="400">illustration</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="500">design</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="600">lifestyle</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="700">love</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="800">project</span>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!-- -----------x---------- Site Content -------------x------------>
+
+    </main>
+
+    <!---------------x------------- Main Site Section ---------------x-------------->
+
+
+    <!-- --------------------------- Footer ---------------------------------------- -->
+
+    <footer>
+        <div class="footer-top" >
+        </div>
+    </div>
+    <div class="footer-center" >
+        <div class="footer-category" >
+            <div class="footer-box Contact-Us ">
+                <div class="contact-box" >
+                        <h2 class="footer-category-border" >Contact Us</h2>
+                        <li class="contact-nummber" ><a>Call : 0912-920-9851</a></li>
+                        <li class="contact-email" ><a>Email : UtileCode@gmail.com</a></li>
+                        <li class="contact-Addres" ><a>Address : Iran - Tehran - UtileCode</a></li>
+                    </div>
+                    <div class="footer-social" >
+                        <nav class="footer-box-social" >
+                            <ul class="footer-social">
+                                <li class="footer-social-item">
+                                    <a class="social-link" href="https://github.com/MiladNazirzadeh" title="github"><i class=" footer-social-icon fab fa-github"></i></a>
+                                </li>
+                                <li class="footer-social-item">
+                                    <a class="social-link" href="#" title="linkedin"><i class=" footer-social-icon fab fa-linkedin"></i></a>
+                                </li>
+                                <li class="footer-social-item">
+                                    <a class="social-link" href="#" title="whatsapp"><i class=" footer-social-icon fab fa-whatsapp"></i></a>
+                                </li>
+                                <li class="footer-social-item">
+                                    <a class="social-link" href="#" title="telegram"><i class=" footer-social-icon fab fa-telegram"></i></a>
+                                </li>
+                                <li class="footer-social-item">
+                                    <a class="social-link" href="https://www.instagram.com/miladnazirzadeh/" title="instagram"><i class=" footer-social-icon fab fa-instagram"></i></a>
+                                </li>
+                                <li class="footer-social-item">
+                                    <a class="social-link" href="#" title="facebook"><i class=" footer-social-icon fab fa-facebook"></i></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer-Email ">
+                        <p>subscribe to newsletter</p>
+                        <form class=" News-Email example">
+                            <button class="footer-button-Email" type="submit">Submit</button>
+                            <input class="footer-input-Email" type="text" placeholder="Email ..." name="search">
+                        </form>
+                    </div>
+                </div>
+                <div class="footer-box About-Site ">
+                    <h2 class="footer-category-border">About Site</h2>
+                <div class="About-site-box">
+                    <p>Utilecode is the fastest learning path .
+                        Our goal is to provide the latest educational content in the field of programming at all levels as free
+                    </p>
+                </div>
+                <div class="About-bottom-box" >
+                        <a class="About-bottom-more " >More</a>
+                        <a  >Managers</a>
+                 </div>
+                </div>
+                <div class="footer-box Site-Map ">
+                    <h2 class="footer-category-border" >Site Map</h2>
+                    <div class="site-map-box" >
+                        <li><a>Home</a></li>
+                        <li><a>News</a></li>
+                        <li><a>Rules</a></li>
+                        <li><a href="./Blog/blog.html" >Articles</a></li>
+                        <li><a>Projects</a></li>
+                        <li><a>Courses</a></li>
+                        <li><a>Complaint</a></li>
+                        <li><a>Customers</a></li>
+                        <li><a>Cooperation</a></li>
+                        <li><a>Project order</a></li>
+                    </div>
+                </div>
+                
+                <div class="footer-box Site-dec" >
+                    <h2 class="footer-category-border" >UtileCode</h2>
+                    <p>Our goal is to provide the latest educational content in the field of programming at all levels as free</p>
+                    <div class="App-download" >
+                        <a  >
+                            <img class="download-icon" src="wwwroot/image/site/google-play-badge.svg" title="Utile Sport" alt="" />
+                        </a>
+                        <a>
+                            <img class="download-icon" src="wwwroot/image/site/app-store-badge.svg" title="Utile Sport" alt="" />
+                        </a>
+                        <a>
+                            <img class="download-icon" src="wwwroot/image/site/windows-badge.svg" title="Utile Sport" alt="" />
+                        </a>
+                    </div>
+                </div>
+        </div>
+        
+        </div>
+        <div class="footer-bottom" >
+            <div class="copy-right">
+                <p> <hr> Design By <a>UtileCode</a><hr></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- -------------x------------- Footer --------------------x------------------- -->
+
+    <!-- Jquery Library file -->
+    <script src="./js/Jquery3.4.1.min.js"></script>
+
+    <!-- --------- Owl-Carousel js ------------------->
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <!-- ------------ AOS js Library  ------------------------- -->
+    <script src="./js/aos.js"></script>
+
+    <!-- Custom Javascript file -->
+    <script src="./js/main.js"></script>
+
+    <script src="../wwwroot/js/script.js"></script>
+</body>
+
+</html>
