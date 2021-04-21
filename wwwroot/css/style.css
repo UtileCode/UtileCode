@@ -599,7 +599,7 @@ main{
 /******* Footer ******/
 
 footer {
-    background:rgb(28, 78, 80);
+    background:rgb(13, 45, 49);
     display: flex;
     flex-flow: column;
     justify-content: center;
