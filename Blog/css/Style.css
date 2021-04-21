@@ -34,8 +34,9 @@ a{
 }
 
 .flex-row{
+    margin-top: 20px;
     display: flex;
-    flex-direction: row;    
+    flex-direction: initial;    
     flex-wrap: wrap;
 }
 
