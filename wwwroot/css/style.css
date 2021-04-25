@@ -693,6 +693,7 @@ footer {
 }
 
 .About-Site p {
+    direction: rtl;
     line-height: normal;
 }
 
@@ -741,6 +742,8 @@ footer {
 }
 
 .Site-dec p {
+    direction: rtl;
+    text-align: justify;
     line-height: normal;
     width: 247px;
     border-bottom: 1px solid white;
