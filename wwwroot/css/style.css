@@ -504,20 +504,22 @@ main{
 }
 
 .number-news {
+    text-align: -webkit-right;
     padding-bottom: 29px;
     color: rgb(23, 228, 235);
 }
 
 .news-title{
+    text-align: -webkit-right;
     padding-bottom: 20px;
     color: rgb(160, 252, 255);
 }
 
 .news-des {
+    text-align: -webkit-right;
     border: none;
     background: none;
     color: azure;
-    text-align: left;
     line-height: 25px;
 }
 
@@ -1338,7 +1340,7 @@ footer {
     }
 
     .statistics {
-        justify-content: left;
+        justify-content: flex-end;
     }
 
     .header-img-box {
@@ -1375,6 +1377,7 @@ footer {
     }
 
     .banner-text {
+        text-align: -webkit-right;
         padding-top: 93px;
     }
 
