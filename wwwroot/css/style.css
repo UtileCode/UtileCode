@@ -605,6 +605,11 @@ footer {
 }
 
 
+.footer-box {
+    text-align: right;
+}
+
+
 .footer-center {
     display: flex;
     justify-content: center;
@@ -612,12 +617,13 @@ footer {
 }
 
 .footer-social {
+    justify-content: flex-end;
     margin: 10px 0;
     display: flex;
 }
 
 .footer-social-item {
-    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .footer-social-icon:hover{
@@ -634,7 +640,7 @@ footer {
 }
 
 .contact-box li {
-    padding-right: 15px;
+    
     padding-bottom: 15px;
     line-height: 20px;
 }
@@ -679,14 +685,13 @@ footer {
 }
 
 .contact-box {
+    text-align: -webkit-right;
     height: 185px;
-    border-right: 1px solid rgb(0, 255, 255);
+    border-left: 1px solid rgb(0, 255, 255);
 }
 
 .About-Site p {
     line-height: normal;
-    display: unset;
-    padding-right: 20px;
 }
 
 
@@ -718,15 +723,18 @@ footer {
 }
 
 .Site-Map{
+    text-align: -webkit-right;
     width: 200px;
 }
 
 .About-Site {
+    text-align: -webkit-right;
     width: 300px;
     margin: 0 15px;
 }
 
 .Site-dec{
+    text-align: -webkit-right;
     width: 300px;
 }
 
@@ -738,6 +746,7 @@ footer {
 }
 
 .About-bottom-box{
+    flex-direction: row-reverse;
     margin: 20px 0 0 0;
     display: table-caption;
 }
@@ -746,8 +755,9 @@ footer {
     margin-bottom: 10px;
 }
 .About-bottom-box a {
+    margin-left: 20px;
     width: max-content;
-    display: table-caption;
+    display: -webkit-box;
     color: #b3d7ff;
     background: #196460;
     padding: 14px 30px;
@@ -1067,7 +1077,6 @@ footer {
 
     .About-bottom-box a {
         padding: 13px 16px;
-        margin-right: 20px;
         font-size: larger;
     }
 
@@ -1143,7 +1152,7 @@ footer {
     .site-map-box {
         display: flex;
         flex-wrap: wrap;
-        justify-content: right;
+        justify-content: flex-end;
         width: 200px;
     }
 
@@ -1386,6 +1395,7 @@ footer {
     }
 
     .Site-Map {
+        display: inline-table;
         width: 120px;
         margin: 0;
     }
@@ -1396,7 +1406,7 @@ footer {
 
     .App-download {
         padding-top: 140px;
-        text-align: left;
+        text-align: right;
         width: 100%;
     }
 
