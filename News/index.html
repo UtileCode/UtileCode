@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../wwwroot/css/bootstrap-rtl.min.css"/>
+    <link rel="stylesheet" href="../wwwroot/css/reset.css"/>
+    <link rel="stylesheet" href="../wwwroot/css/all.min.css"/>
+    <link rel="stylesheet" href="../wwwroot/css/style.css"/>
+</head>
+<body>
+    <header  >
+        <div class="header-category" >
+            <div class="header-top" >
+                <div class="nav-Logo" >
+                    <h1 hidden >UtileCode</h1>
+                    <div class="UtileCode" >
+                        <a class="logo-box" href="../Pages/signin.html" >
+                            <img class="site-logo" src="../wwwroot/image/site/UtileCode.svg" title="Utile Sport" alt="" />
+                             حساب کاربری
+                        </a>
+                        <a href="../Pages/signup.html" class="Account-SignUp" >ثبت نام</a>
+                    </div>
+                </div>
+                <div class="nav-menu" >
+                    <nav class="nav-box-menu" >
+                        <ul class="site-menu">
+                            <li class="menu-item"><a class="menu-item-link menu-item-padding  " href="../index.html">خانه</a></li>
+                            <li class="menu-item"><a class="menu-item-link menu-item-padding " href="#News">اخبار</a></li>
+                            <li class="menu-item"><a class="menu-item-link menu-item-padding active-site-map "href="./Blog/blog.html">مقالات</a></li>
+                            <li class="menu-item"><a class="menu-item-link menu-item-padding " href="#Projects">پروژه ها</a></li>
+                            <li class="menu-item"><a class="menu-item-link menu-item-padding " href="#Courses">دوره ها</a></li>
+                            <li class="menu-item"><a class="menu-item-link menu-item-padding " href="#Customers">مشتری ها</a></li>
+                            <li class="menu-item"><a class="menu-item-link menu-item-padding " href="#Cooperation">همکاری باما</a></li>
+                            <li class="menu-item"><a class="menu-item-link menu-item-padding " href="#ProjectOrder">سفارش پروژه</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="nav-social" >
+                    <nav class="nav-box-social" >
+                        <ul class="site-social">
+                            <li class="social-item">
+                                <a class="social-link" href="https://github.com/MiladNazirzadeh" title="github"><i class=" social-icon fab fa-github"></i></a>
+                            </li>
+                            <li class="social-item">
+                                <a class="social-link" href="#" title="linkedin"><i class=" social-icon fab fa-linkedin"></i></a>
+                            </li>
+                            <li class="social-item">
+                                <a class="social-link" href="#" title="whatsapp"><i class=" social-icon fab fa-whatsapp"></i></a>
+                            </li>
+                            <li class="social-item">
+                                <a class="social-link" href="#" title="telegram"><i class=" social-icon fab fa-telegram"></i></a>
+                            </li>
+                            <li class="social-item">
+                                <a class="social-link" href="https://www.instagram.com/miladnazirzadeh/" title="instagram"><i class=" social-icon fab fa-instagram"></i></a>
+                            </li>
+                            <li class="social-item">
+                                <a class="social-link" href="#" title="facebook"><i class=" social-icon fab fa-facebook"></i></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="social-panel-menu" >
+                    <div id="socialpanel" class="side-social-panel">
+                        <a href="javascript:void(0)" class="social-close-btn" onclick="closesocial()">×</a>
+                        <li class="social-item">
+                            <a class="side-social-link" href="https://github.com/MiladNazirzadeh" title="github"><i class=" social-icon fab fa-github"></i></a>
+                        </li>
+                        <li class="social-item">
+                            <a class="side-social-link" href="#" title="linkedin"><i class=" social-icon fab fa-linkedin"></i></a>
+                        </li>
+                        <li class="social-item">
+                            <a class="side-social-link" href="#" title="whatsapp"><i class=" social-icon fab fa-whatsapp"></i></a>
+                        </li>
+                        <li class="social-item">
+                            <a class="side-social-link" href="#" title="telegram"><i class=" social-icon fab fa-telegram"></i></a>
+                        </li>
+                        <li class="social-item">
+                            <a class="side-social-link" href="https://www.instagram.com/miladnazirzadeh/" title="instagram"><i class=" social-icon fab fa-instagram"></i></a>
+                        </li>
+                        <li class="social-item">
+                            <a class="side-social-link" href="#" title="facebook"><i class=" social-icon fab fa-facebook"></i></a>
+                        </li>
+                      </div>
+                      
+                      <a class="open-social-side-panel" onclick="opensocial()"><i class="fa fa-users" aria-hidden="true"></i></a>  
+                </div>
+        
+                <div class="site-map-menu" >
+                    <div id="sitemappanel" class="site-map-panel">
+                        <a href="javascript:void(0)" class="close-site-map" onclick="closesitemap()">×</a>
+                        <a class="side-map-item side-map-item-active" href="#Home">Home</a>
+                        <a class="side-map-item" href="#News">News</a>
+                        <a class="side-map-item" href="./Blog/blog.html">Articles</a>
+                        <a class="side-map-item" href="#Projects">Projects</a>
+                        <a class="side-map-item" href="#Courses">Courses</a>
+                        <a class="side-map-item" href="#Customers">Customers</a>
+                        <a class="side-map-item" href="#Cooperation">Cooperation</a>
+                        <a class="side-map-item" href="#ProjectOrder">ProjectOrder</a>
+                      </div>
+                      
+                      <a class="open-site-map" onclick="opensitemap()"><i class="fa fa-bars" aria-hidden="true"></i></a>  
+                </div>
+            </div>
+        
+        </div>
+    
+    </header>
+        <section class="intro intro-h-600px">
+            <section class="intro-row intro-h-2-3 mb-10x">
+           <section class="intro-2-3-col intro-h-100 position-relative h-md-300px">
+               <section class="img-bg bg-1 intro-h-100"></section>
+               <section class="intro-item-caption">
+                   <h3 class="caption-title">
+                       <span>
+                           Peter Thiels VC Found Invests Million into Bitcoin, Market Reacts
+                       </span>
+                   </h3>
+                   <ul class="caption-info-bar">
+                       <li>by<b class="text-yellow">Olivia Capzallo</b> Jan 25, 2018 </li>
+                       <li> <i class="fas fa-bolt text-yellow"></i>30,190 </li>
+                       <li><i class="fas fa-comments text-yellow"></i>30</li>
+                   </ul>
+               </section>
+           </section>
+                <section class="intro-1-3-col intro-h-100">
+                <section class="intro-1-3-item intro-h-50 position-relative h-md-300px">
+                    <section class="img-bg bg-2 intro-h-100">
+                    </section>
+                    <section class="intro-item-caption">
+                        <h3 class="caption-title">
+                       <b>
+                           Russians Bisiops Condems Cryptocurrecy
+                       </b>
+                        </h3>
+                        <ul class="caption-info-bar">
+                            <li>Jan 25, 2018 </li>
+                            <li> <i class="fas fa-bolt text-yellow"></i>30,190 </li>
+                            <li><i class="fas fa-comments text-yellow"></i>30</li>
+                        </ul>
+                    </section>
+
+                </section>
+                    <section class="intro-1-3-item intro-h-50 position-relative h-md-300px">
+                    <section class="img-bg bg-3 intro-h-100">
+                    </section>
+                        <section class="intro-item-caption">
+                            <h3 class="caption-title">
+                       <b>
+                           Bitcoin Adoption by Business in 2017
+                       </b>
+                            </h3>
+                            <ul class="caption-info-bar">
+                                <li>Jan 25, 2018 </li>
+                                <li> <i class="fas fa-bolt text-yellow"></i>30,190 </li>
+                                <li><i class="fas fa-comments text-yellow"></i>30</li>
+                            </ul>
+                        </section>
+                </section>
+                </section>
+                <section class="clear-fix"></section>
+            </section>
+
+            <section class="intro-row intro-h-1-3">
+                <section class="intro-1-3-col-item intro-h-100 position-relative h-md-300px">
+                <section class="img-bg bg-4 intro-h-100"></section>
+                    <section class="intro-item-caption">
+                        <h3 class="caption-title">
+                            <b>
+                                2017 Market Performance: Crypto vs.Stock
+                            </b>
+                        </h3>
+                        <ul class="caption-info-bar">
+                            <li>Jan 25, 2018 </li>
+                            <li> <i class="fas fa-bolt text-yellow"></i>30,190 </li>
+                            <li><i class="fas fa-comments text-yellow"></i>30</li>
+                        </ul>
+                    </section>
+                </section>
+                <section class="intro-1-3-col-item intro-h-100 position-relative h-md-300px">
+                <section class="img-bg bg-5 intro-h-100"></section>
+                    <section class="intro-item-caption">
+                        <h3 class="caption-title">
+                            <b>
+                                Culture Stock: Bitcoin a Part of all Walks of life in 2017
+                            </b>
+                        </h3>
+                        <ul class="caption-info-bar">
+                            <li>Jan 25, 2018 </li>
+                            <li> <i class="fas fa-bolt text-yellow"></i>30,190 </li>
+                            <li><i class="fas fa-comments text-yellow"></i>30</li>
+                        </ul>
+                    </section>
+                </section>
+                <section class="intro-1-3-col-item intro-h-100 position-relative h-md-300px">
+                <section class="img-bg bg-6 intro-h-100"></section>
+                    <section class="intro-item-caption">
+                        <h3 class="caption-title">
+                            <b>
+                                Bitcoin Billionares Hidding in Plain Sight
+                            </b>
+                        </h3>
+                        <ul class="caption-info-bar">
+                            <li>Jan 25, 2018 </li>
+                            <li> <i class="fas fa-bolt text-yellow"></i>30,190 </li>
+                            <li><i class="fas fa-comments text-yellow"></i>30</li>
+                        </ul>
+                    </section>
+                </section>
+                <section class="clear-fix"></section>
+            </section>
+
+        </section>
+        <section class="container">
+            <main class="main">
+                <section class="main-news">
+                    <h2 class="title">
+                        RECENT NEWS
+                    </h2>
+                    <article>
+                        <img src="images/recent-news-1-600x450.jpg" alt="" class="main-news-img">
+                        <h3 class="article-title">
+                            <a href="#">
+                                2017 Market Performance: <br>Crypto vs.Stock
+                            </a>
+                        </h3>
+                        <ul class="info-bar">
+                           <li><span class="text-muted">by</span><a href="#" class="color-black"><b>Olivia
+                               Capzallo,</b></a> <span>
+								Jan 25, 2018</span></li>
+                            <li> <i class="fas fa-bolt text-yellow"></i>30,190 </li>
+                            <li><i class="fas fa-comments text-yellow"></i>47</li>
+                        </ul>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+                    </article>
+                </section>
+                <section class="main-crypto-mining-news">
+                    <h2 class="title">
+                        CRYPTO MINING NEWS
+                    </h2>
+                    <section class="main-news-w-50">
+                        <article>
+                            <img src="images/crypto-news-2-600x450.jpg" alt="" class="main-news-img">
+                            <h3 class="article-title">
+                                <a href="#">
+                                2017 Market Performance: <br>Crypto vs.Stock
+                                </a>
+                            </h3>
+                            <ul class="info-bar">
+                                <li><span class="text-muted">by</span><a href="#" class="color-black"><b>Olivia
+                                    Capzallo,</b></a> <span>
+								Jan 25, 2018</span></li>
+                                <li> <i class="fas fa-bolt text-yellow"></i>30,190 </li>
+                                <li><i class="fas fa-comments text-yellow"></i>47</li>
+                            </ul>
+                        </article>
+                    </section>
+                    <section class="main-news-w-50">
+                        <article>
+                            <img src="images/crypto-news-1-600x450.jpg" alt="" class="main-news-img">
+                            <h3 class="article-title">
+                                <a href="#">
+                                    2017 Market Performance: <br>Crypto vs.Stock
+                                </a>
+                            </h3>
+                            <ul class="info-bar">
+                                <li><span class="text-muted">by</span><a href="#" class="color-black"><b>Olivia
+                                    Capzallo,</b></a> <span>
+								Jan 25, 2018</span></li>
+                                <li> <i class="fas fa-bolt text-yellow"></i>30,190 </li>
+                                <li><i class="fas fa-comments text-yellow"></i>47</li>
+                            </ul>
+                        </article>
+                    </section>
+                    <section class="clear-fix"></section>
+                </section>
+            </main>
+            <aside class="sidebar">
+                <section class="sidebar-item">
+                    <ul class="sidebar-list">
+                        <li><b>1 BTC = $13,2323</b></li>
+                        <li><b>1 BCH = $13,2323</b></li>
+                        <li><b>1 ETH = $13,2323</b></li>
+                        <li><b>1 LTC = $13,2323</b></li>
+                        <li><b>1 DAS = $13,2323</b></li>
+                        <li><b>1 BCC = $13,2323</b></li>
+                    </ul>
+                </section>
+                <section class="sidebar-item">
+                    <h2 class="title">
+                        POPULAR POSTS
+                    </h2>
+                    <section class="popular-post">
+                        <img src="images/polular-1-100x100.jpg" alt="" class="popular-post-img">
+                        <section class="popular-post-title">
+                            <h3>
+                                <a href="#">
+                                    <b>Bitcoin Billionares Hidding in Plain Sight</b>
+                                </a>
+                            </h3>
+                            <ul class="info-bar">
+                                <li><span class="text-muted">by</span><a href="#" class="color-black"><b>Olivia
+                                    Capzallo,</b></a> <span>
+								Jan 25, 2018</span></li>
+                                <li> <i class="fas fa-bolt text-yellow"></i>30,190 </li>
+                                <li><i class="fas fa-comments text-yellow"></i>47</li>
+                            </ul>
+                        </section>
+                        <section class="clear-fix"></section>
+                    </section>
+                    <section class="popular-post">
+                        <img src="images/polular-2-100x100.jpg" alt="" class="popular-post-img">
+                        <section class="popular-post-title">
+                            <h3>
+                                <a href="#">
+                                    <b>Bitcoin Billionares Hidding in Plain Sight</b>
+                                </a>
+                            </h3>
+                            <ul class="info-bar">
+                                <li><span class="text-muted">by</span><a href="#" class="color-black"><b>Olivia
+                                    Capzallo,</b></a> <span>
+								Jan 25, 2018</span></li>
+                                <li> <i class="fas fa-bolt text-yellow"></i>30,190 </li>
+                                <li><i class="fas fa-comments text-yellow"></i>47</li>
+                            </ul>
+                        </section>
+                        <section class="clear-fix"></section>
+                    </section>
+                    <section class="popular-post">
+                        <img src="images/polular-3-100x100.jpg" alt="" class="popular-post-img">
+                        <section class="popular-post-title">
+                            <h3>
+                                <a href="#">
+                                    <b>Bitcoin Billionares Hidding in Plain Sight</b>
+                                </a>
+                            </h3>
+                            <ul class="info-bar">
+                                <li><span class="text-muted">by</span><a href="#" class="color-black"><b>Olivia
+                                    Capzallo,</b></a> <span>
+								Jan 25, 2018</span></li>
+                                <li> <i class="fas fa-bolt text-yellow"></i>30,190 </li>
+                                <li><i class="fas fa-comments text-yellow"></i>47</li>
+                            </ul>
+                        </section>
+                        <section class="clear-fix"></section>
+                    </section>
+                    <section class="popular-post">
+                        <img src="images/polular-4-100x100.jpg" alt="" class="popular-post-img">
+                        <section class="popular-post-title">
+                            <h3>
+                                <a href="#">
+                                    <b>Bitcoin Billionares Hidding in Plain Sight</b>
+                                </a>
+                            </h3>
+                            <ul class="info-bar">
+                                <li><span class="text-muted">by</span><a href="#" class="color-black"><b>Olivia
+                                    Capzallo,</b></a> <span>
+								Jan 25, 2018</span></li>
+                                <li> <i class="fas fa-bolt text-yellow"></i>30,190 </li>
+                                <li><i class="fas fa-comments text-yellow"></i>47</li>
+                            </ul>
+                        </section>
+                        <section class="clear-fix"></section>
+                    </section>
+                </section>
+                <section class="sidebar-item">
+                    <h2 class="title">NEWSLETTER</h2>
+                    <p>
+                        Subscribe to our newsletter to get notification about new updates,
+                        information, discount, etc..
+                    </p>
+                    <form class="subscribe-form">
+                        <input type="text" class="subscribe-form-text" placeholder="Your email">
+                        <button type="button">b</button>
+                        <section class="clear-fix"></section>
+                    </form>
+                </section>
+            </aside>
+            <section class="clear-fix"></section>
+
+        </section>
+
+        <footer>
+            <div class="footer-top" >
+            </div>
+        </div>
+        <div class="footer-center" >
+            <div class="footer-category" >
+                <div class="footer-box Contact-Us ">
+                    <div class="contact-box" >
+                            <h2 class="footer-category-border" >ارتباط باما</h2>
+                            <li class="contact-nummber" ><a>تماس  : 9851 920 0990</a></li>
+                            <li class="contact-email" ><a> UtileCode@gmail.com : ایمل</a></li>
+                            <li class="contact-Addres" ><a>آدرس : ایران - تهران - یوتایل کد</a></li>
+                        </div>
+                        <div class="footer-social" >
+                            <nav class="footer-box-social" >
+                                <ul class="footer-social">
+                                    <li class="footer-social-item">
+                                        <a class="social-link" href="https://github.com/MiladNazirzadeh" title="github"><i class=" footer-social-icon fab fa-github"></i></a>
+                                    </li>
+                                    <li class="footer-social-item">
+                                        <a class="social-link" href="#" title="linkedin"><i class=" footer-social-icon fab fa-linkedin"></i></a>
+                                    </li>
+                                    <li class="footer-social-item">
+                                        <a class="social-link" href="#" title="whatsapp"><i class=" footer-social-icon fab fa-whatsapp"></i></a>
+                                    </li>
+                                    <li class="footer-social-item">
+                                        <a class="social-link" href="#" title="telegram"><i class=" footer-social-icon fab fa-telegram"></i></a>
+                                    </li>
+                                    <li class="footer-social-item">
+                                        <a class="social-link" href="https://www.instagram.com/miladnazirzadeh/" title="instagram"><i class=" footer-social-icon fab fa-instagram"></i></a>
+                                    </li>
+                                    <li class="footer-social-item">
+                                        <a class="social-link" href="#" title="facebook"><i class=" footer-social-icon fab fa-facebook"></i></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="footer-Email ">
+                            <p>عضویت در خبرنامه</p>
+                            <form class=" News-Email example">
+                                <button class="footer-button-Email" type="submit">Submit</button>
+                                <input class="footer-input-Email" type="text" placeholder="Email ..." name="search">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="footer-box About-Site ">
+                        <h2 class="footer-category-border">درباره سایت</h2>
+                    <div class="About-site-box">
+                        <p> یوتایل کد سریع ترین مسیر یادگیری است. هدف ما ارائه آخرین مطالب آموزشی  کاملا رایگان در زمینه برنامه نویسی است       
+                        </p>
+                    </div>
+                    <div class="About-bottom-box" >
+                            <a class="About-bottom-more " >بیشتر</a>
+                            <a  >مدیر سایت</a>
+                     </div>
+                    </div>
+                    <div class="footer-box Site-Map ">
+                        <h2 class="footer-category-border" >نقشه سایت</h2>
+                        <div class="site-map-box" >
+                            <li><a>خانه</a></li>
+                            <li><a>اخبار</a></li>
+                            <li><a>قوانین</a></li>
+                            <li><a>گزارش</a></li>
+                            <li><a href="./Blog/blog.html" >مقالات</a></li>
+                            <li><a>دوره ها</a></li>
+                            <li><a>پروژه ها</a></li>
+                            <li><a>مشتری ها</a></li>
+                            <li><a>همکاری باها</a></li>
+                            <li><a> سفارش پروژه</a></li>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-box Site-dec" >
+                        <h2 class="footer-category-border" >یوتایل کد</h2>
+                        <p>یوتایل کد به راحتی در تمامی پلتفرم ها در دسترس است  برای دانلود اپ می توانید از لینک های زیر اسیتفاده کنید</p>
+                        <div class="App-download" >
+                            <a  >
+                                <img class="download-icon" src="../wwwroot/image/site/google-play-badge.svg" title="Utile Sport" alt="" />
+                            </a>
+                            <a>
+                                <img class="download-icon" src="../wwwroot/image/site/app-store-badge.svg" title="Utile Sport" alt="" />
+                            </a>
+                            <a>
+                                <img class="download-icon" src="../wwwroot/image/site/windows-badge.svg" title="Utile Sport" alt="" />
+                            </a>
+                        </div>
+                    </div>
+            </div>
+            
+            </div>
+            <div class="footer-bottom" >
+                <div class="copy-right">
+                    <p> <hr> Design By <a>UtileCode</a><hr></p>
+                </div>
+            </div>
+        </footer>
+
+<script type="text/javascript">
+    function showMenu() {
+      var x = document.getElementById("menu");
+      if (x.className === "header-menu") {
+          x.className += " show";
+          console.log(1);
+      }
+      else{
+          x.className="header-menu";
+          console.log(0);
+      }
+    }
+</script>
+<script src="../wwwroot/js/script.js"></script>
+</body>
+</html>
