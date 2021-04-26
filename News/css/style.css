@@ -13,7 +13,6 @@
     position: absolute;
 }
 .title{
-    text-align: right;
     position: relative;
     padding-bottom: 20px;
     margin-bottom: 40px;
@@ -24,7 +23,7 @@
     content: '';
     position: absolute;
     bottom: 0;
-    right: 0;
+    left: 0;
     width: 100%;
     height: 1px;
     background: #ccc;
@@ -33,7 +32,7 @@
     content: '';
     position: absolute;
     bottom: 0;
-    right: 0;
+    left: 0;
     width: 80px;
     height: 5px;
     background: #F9B500;
@@ -136,7 +135,7 @@ b{
 }
 
 .intro-h-600px{
-    margin: 110px auto;
+    margin: auto;
     height: 600px;
     /*height < 768 auto*/
 }
@@ -276,7 +275,6 @@ font-weight: 600;
 }
 
 .intro-item-caption{
-    text-align: right;
     height: 100%;
     width: 100%;
     background-color: rgba(0,0,0,0.4);
@@ -297,8 +295,6 @@ font-weight: 600;
     color: #ffffff;
 }
 .caption-title b{
-    text-align: justify;
-    direction:rtl;
     font-size: 20px;
     font-weight: 700;
     color: #ffffff;
@@ -328,12 +324,12 @@ font-weight: 600;
 
 
 
-.bg-1{background: url("../images/site/server.jpg") no-repeat center; background-size: cover}
-.bg-2{background: url("../images/site/hrz.jpg") no-repeat center; background-size: cover}
-.bg-3{background: url("../images/site/mozakerh.jpg") no-repeat center; background-size: cover}
-.bg-4{background: url("../images/site/store.jpg") no-repeat center; background-size: cover}
-.bg-5{background: url("../images/site/mororgar.jpg") no-repeat center; background-size: cover}
-.bg-6{background: url("../images/site/dadeh.jpg") no-repeat center; background-size: cover}
+.bg-1{background: url("../images/slider-1-1200x900.jpg") no-repeat center; background-size: cover}
+.bg-2{background: url("../images/slider-2-450x600.jpg") no-repeat center; background-size: cover}
+.bg-3{background: url("../images/slider-3-450x600.jpg") no-repeat center; background-size: cover}
+.bg-4{background: url("../images/slider-4-450x600.jpg") no-repeat center; background-size: cover}
+.bg-5{background: url("../images/slider-5-450x600.jpg") no-repeat center; background-size: cover}
+.bg-6{background: url("../images/slider-6-450x600.jpg") no-repeat center; background-size: cover}
 
 .mr-10x{
     margin-right: 10px;
@@ -393,7 +389,6 @@ font-weight: 600;
     margin-top: 50px;
 }
 .main{
-    text-align: right;
     float: left;
     width: calc(calc(200%/3) - 25px);
     margin-right: 25px;
@@ -419,7 +414,6 @@ font-weight: 600;
 
 }
 .sidebar-item{
-    text-align: right;
     width: 100%;
     margin-bottom: 40px;
 }
