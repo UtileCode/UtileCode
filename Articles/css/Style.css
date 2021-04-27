@@ -16,8 +16,6 @@
 
     /*      theme font-family   */
 }
-
-
 /* ---------------- Global Classes ---------------*/
 
 .category-spam{
@@ -26,8 +24,10 @@
 }
 
 
+
 .sidebar {
-    text-align: -webkit-center;
+    width: 100%;
+    text-align: center;
 }
 
 a{
@@ -169,7 +169,6 @@ section .container .owl-nav{
     position: absolute;
     top: 0%;
     margin: 0 auto;
-    width: 100%;
 }
 
 .owl-nav .owl-prev .owl-nav-prev,
@@ -201,6 +200,10 @@ main .site-content{
 main .post-content{
     width: 100%;
     
+}
+
+ul.category-list {
+    width: 95%;
 }
 
 main .site-content .post-content > .post-image, .post-title{

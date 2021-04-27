@@ -154,6 +154,7 @@ header{
 
 
 .site-map-panel {
+    text-align: right;
     display: flex;
     flex-direction: column;
     width: 0;
@@ -165,7 +166,7 @@ header{
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-    height: 395px;
+    height: 230px;
 }
 
 .UtileCode{
@@ -489,6 +490,16 @@ main{
     border-radius: 10px;
 }
 
+
+.text-top-dec {
+    margin-top: 150px;
+    background-color: darkturquoise;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+}
+
+
 .news-box{
     width: 95%;
 }
@@ -539,6 +550,12 @@ main{
     border-radius: 5px;
 }
 
+.project-link {
+    padding: 10px 0;
+    width: 100%;
+    background-color: #00000079;
+}
+
 .more-news:hover{
     color: rgb(17, 54, 59);
     border-radius: 5px;
@@ -558,6 +575,19 @@ main{
 
 .Articles-Category {
     margin: 147px 0 206px 0;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects-Category-1{
+    margin: 50px 0 0 0;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.projects-Category-2{
+    margin: 10px 0 50px 0;
     width: 80%;
     display: flex;
     justify-content: space-between;
@@ -1018,6 +1048,19 @@ footer {
         justify-content: center;
     }
 
+    .projects-Category-1{
+        width: 80%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+    .projects-Category-2{
+        width: 80%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+
     .Articles-Box-img {
         width: 40%;
     }
@@ -1125,6 +1168,19 @@ footer {
         width: 90%;
     }
 
+    .projects-Category-1{
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    .projects-Category-2{
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
     .footer-category {
         flex-wrap: wrap;
         justify-content: space-around;
@@ -1175,7 +1231,7 @@ footer {
 
     .Articles-Box {
         margin-top: 50px;
-        width: calc(80% / 2);
+        width: calc(95% / 2);
     }
 
     .Articles-Box-img {
@@ -1282,7 +1338,7 @@ footer {
     }
 
     .Articles-Box {
-        width: calc(80% / 4);
+        width: calc(95% / 4);
     }
 
     .Articles-Category {
@@ -1438,6 +1494,13 @@ footer {
         margin: 140px 0px 120px;
     }
 
+    .projects-Category-1{
+        width: 90%;
+    }
+    .projects-Category-2{
+        width: 90%;
+    }
+
     .footer-category {
         width: 95%;
     }
@@ -1518,6 +1581,13 @@ footer {
 
     
     .Articles-Category {
+        width: 85%;
+    }
+
+    .projects-Category-1{
+        width: 85%;
+    }
+    .projects-Category-2{
         width: 85%;
     }
 
