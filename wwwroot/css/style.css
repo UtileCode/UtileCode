@@ -837,9 +837,9 @@ footer {
 
 /*******Login-Logout*******/
 .box {
-    height: 625px;
+    height: max-content;
     width: 400px;
-    padding: 0px 60px;
+    padding: 20px 60px;
     position: absolute;
     top: 55%;
     left: 50%;
